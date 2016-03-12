@@ -1,0 +1,22 @@
+{
+  "name": "wassap",
+  "version": "1.0.0",
+  "description": "Wassap bro?!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallucinogen/wassap.git"
+  },
+  "author": "Listiarso Wastuargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hallucinogen/wassap/issues"
+  },
+  "homepage": "https://github.com/hallucinogen/wassap#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
