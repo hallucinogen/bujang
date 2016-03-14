@@ -21390,7 +21390,7 @@
 
 
 	// module
-	exports.push([module.id, ".wrap__uef3f {\n  width: 800px;\n  height: 300px;\n  padding: 30px 30px 15px 30px;\n  display: flex;\n  position: relative; }\n\n.leftSection__2pFqh {\n  height: inherit;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n  .leftSection__2pFqh .profpic__24Ewj {\n    max-width: 100vw;\n    height: inherit;\n    display: flex; }\n\n.rightSection__3P0HD {\n  vertical-align: top;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n", ""]);
+	exports.push([module.id, ".wrap__uef3f {\n  width: 700px;\n  height: 300px;\n  padding: 30px 30px 15px 30px;\n  display: flex;\n  position: relative; }\n\n.leftSection__2pFqh {\n  height: inherit;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n  .leftSection__2pFqh .profpic__24Ewj {\n    max-width: 100vw;\n    height: inherit;\n    display: flex; }\n\n.rightSection__3P0HD {\n  vertical-align: top;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n", ""]);
 
 	// exports
 	exports.locals = {
