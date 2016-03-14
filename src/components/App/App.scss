@@ -8,6 +8,7 @@
 
 .leftSection {
   height: inherit;
+  width: 300px;
   flex-flow: row nowrap;
   flex-grow: 1;
   flex-basis: 0;
@@ -20,6 +21,7 @@
 }
 
 .rightSection {
+  width: 400px;
   vertical-align: top;
   flex-flow: row nowrap;
   flex-grow: 1;
