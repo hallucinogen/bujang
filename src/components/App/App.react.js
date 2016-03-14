@@ -52,9 +52,7 @@ export default class App extends React.Component {
             </p>
           </div>
 
-          <div className={styles.bottom}>
-            {alert}
-          </div>
+          {alert}
         </div>
       </div>
     );

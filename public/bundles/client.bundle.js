@@ -265,11 +265,7 @@
 	              'Now this starts to sound like a Tinder biography, so I\'m going to stop.'
 	            )
 	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: _App2.default.bottom },
-	            alert
-	          )
+	          alert
 	        )
 	      );
 	    }
@@ -21394,15 +21390,14 @@
 
 
 	// module
-	exports.push([module.id, ".wrap__uef3f {\n  height: calc(100vh - 60px);\n  padding: 30px 30px 15px 30px;\n  display: flex;\n  position: relative; }\n\n.leftSection__2pFqh {\n  height: inherit;\n  flex-flow: row nowrap;\n  flex-grow: 0.75;\n  flex-basis: 0; }\n  .leftSection__2pFqh .profpic__24Ewj {\n    max-width: 100vw;\n    height: inherit;\n    display: flex; }\n\n.rightSection__3P0HD {\n  vertical-align: top;\n  margin-left: 30px;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n\n.bottom__28sxf {\n  position: absolute;\n  bottom: -20px; }\n", ""]);
+	exports.push([module.id, ".wrap__uef3f {\n  height: 300px;\n  padding: 30px 30px 15px 30px;\n  display: flex;\n  position: relative; }\n\n.leftSection__2pFqh {\n  height: inherit;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n  .leftSection__2pFqh .profpic__24Ewj {\n    max-width: 100vw;\n    height: inherit;\n    display: flex; }\n\n.rightSection__3P0HD {\n  vertical-align: top;\n  margin-left: 30px;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0; }\n", ""]);
 
 	// exports
 	exports.locals = {
 		"wrap": "wrap__uef3f",
 		"leftSection": "leftSection__2pFqh",
 		"profpic": "profpic__24Ewj",
-		"rightSection": "rightSection__3P0HD",
-		"bottom": "bottom__28sxf"
+		"rightSection": "rightSection__3P0HD"
 	};
 
 /***/ },

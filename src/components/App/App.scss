@@ -1,5 +1,5 @@
 .wrap {
-  height: calc(100vh - 60px);
+  height: 300px;
   padding: 30px 30px 15px 30px;
   display: flex;
   position: relative;
@@ -8,7 +8,7 @@
 .leftSection {
   height: inherit;
   flex-flow: row nowrap;
-  flex-grow: 0.75;
+  flex-grow: 1;
   flex-basis: 0;
 
   .profpic {
@@ -24,9 +24,4 @@
   flex-flow: row nowrap;
   flex-grow: 1;
   flex-basis: 0;
-}
-
-.bottom {
-  position: absolute;
-  bottom: -20px;
 }
