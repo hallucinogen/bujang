@@ -178,7 +178,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var STATE = 'around';
+	var STATE = 'out';
 	var outStatus = 'in the restroom';
 
 	var App = function (_React$Component) {

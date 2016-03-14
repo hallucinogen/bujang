@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from 'src/components/App/App.scss';
 
-const STATE = 'around';
+const STATE = 'out';
 const outStatus = 'in the restroom';
 
 export default class App extends React.Component {
