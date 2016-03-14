@@ -198,7 +198,7 @@
 	          alert = _react2.default.createElement(
 	            'div',
 	            { className: 'alert alert-success', role: 'alert' },
-	            'Gogo is around! You can ping him!'
+	            'Gogo is around! Feel free to tap his back or give a hug or whatever!'
 	          );
 	          break;
 	        case 'busy':
@@ -242,7 +242,7 @@
 	          'div',
 	          { className: _App2.default.rightSection },
 	          _react2.default.createElement(
-	            'h1',
+	            'h3',
 	            null,
 	            'Listiarso Wastuargo (Gogo)'
 	          ),

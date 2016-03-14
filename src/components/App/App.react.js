@@ -9,7 +9,7 @@ export default class App extends React.Component {
     let alert = null;
     switch (STATE) {
       case 'around':
-        alert = <div className="alert alert-success" role="alert">Gogo is around! You can ping him!</div>;
+        alert = <div className="alert alert-success" role="alert">Gogo is around! Feel free to tap his back or give a hug or whatever!</div>;
         break;
       case 'busy':
         alert = (
@@ -38,7 +38,7 @@ export default class App extends React.Component {
             src="/images/profpic1.jpg" />
         </div>
         <div className={styles.rightSection}>
-          <h1>Listiarso Wastuargo (Gogo)</h1>
+          <h3>Listiarso Wastuargo (Gogo)</h3>
 
           <div>
             <p>
