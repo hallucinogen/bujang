@@ -34,7 +34,7 @@ export default class App extends React.Component {
       <div className={styles.wrap}>
         <div className={styles.leftSection}>
           <img
-            className={[styles.profpic, 'thumbnail'].join(' ')}
+            className={styles.profpic}
             src="/images/profpic1.jpg" />
         </div>
         <div className={styles.rightSection}>
