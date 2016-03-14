@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 // Send everything else over to index.html. Let the client decide.
 app.get('/*', function(req, res) {
-  res.sendFile(path.resolve('client/index.html'));
+  res.sendFile(path.resolve('src/client/index.html'));
 })
 
 // Dokku/heroku default port for NodeJS is 5000.
