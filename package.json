@@ -4,7 +4,8 @@
   "description": "Wassap bro?!",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/hallucinogen/wassap#readme",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "express": "^4.13.4"
   }
 }
