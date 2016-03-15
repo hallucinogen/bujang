@@ -5,6 +5,12 @@ const STATE = 'busy';
 const outStatus = 'in the restroom';
 
 export default class App extends React.Component {
+  constructor() {
+    setTimeout(() => {
+      window.location.reload(true)
+    }, 5 * 60 * 1000);
+  }
+
   render() {
     let alert = null;
     switch (STATE) {
