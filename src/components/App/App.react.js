@@ -16,12 +16,19 @@ export default class App extends React.Component {
     let alert = null;
     switch (STATE) {
       case 'around':
-        alert = <div className="alert alert-success" role="alert">Gogo is around! Feel free to tap his back or give a hug or whatever!</div>;
+        alert = <div className="alert alert-success" role="alert"><b>Gogo is around!</b> Feel free to tap his back or give a hug or whatever!</div>;
         break;
       case 'busy':
         alert = (
           <div className="alert alert-danger" role="alert">
-            Gogo is busy or on vacation! Please send email to listiarso@fb.com or ping him on Messenger only if it's urgent!
+            <b>Gogo is busy!</b> Please send email to listiarso@fb.com or ping him on Messenger only if it's urgent!
+          </div>
+        );
+        break;
+      case 'vacation':
+        alert = (
+          <div className="alert alert-danger" role="alert">
+            <b>Gogo is on vacation!</b> Please send email to listiarso@fb.com or ping him on Messenger only if it's urgent!
           </div>
         );
         break;
@@ -29,7 +36,7 @@ export default class App extends React.Component {
         alert = (
           <div>
             <div className="alert alert-warning" role="alert">
-              Gogo is {outStatus}! Please wait or you can ping him by clicking the button below:
+              <b>Gogo is {outStatus}!</b> Please wait or you can ping him by clicking the button below:
             </div>
             <a href="#" className="btn btn-primary">Ping!</a>
           </div>
@@ -51,7 +58,7 @@ export default class App extends React.Component {
             <p>
               <b>Heya!</b> Name is Gogo. Love photography, movie, music, video games and corgi. I have a habit to air-(guitar/drum/piano)
               when listening to good music, so please pardon the disruption. Feel free to ask me anything about JavaScript, Android,
-              C# or game development since those are my strongest suits :)
+              C# or game development - those are my strongest suits :)
             </p>
 
             <p>
