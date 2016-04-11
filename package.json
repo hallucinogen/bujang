@@ -8,6 +8,10 @@
     "start": "node src/server/index.js",
     "develop": "node src/server/index.js & node_modules/.bin/webpack --config webpack.config.js --progress --watch"
   },
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.14.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hallucinogen/wassap.git"
