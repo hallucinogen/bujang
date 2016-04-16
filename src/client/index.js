@@ -1,6 +1,6 @@
 require('bootstrap-webpack');
 
-import App from 'src/components/App/App.react';
+import App from 'src/client/App.react';
 import React from 'React';
 import ReactDOM from 'react-dom';
 

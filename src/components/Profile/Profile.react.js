@@ -1,20 +1,28 @@
 import React from 'react';
-import styles from 'src/components/App/App.scss';
+import styles from 'src/components/Profile/Profile.scss';
+import socketio from 'socket.io-client';
 
 const STATE = 'busy';
 const outStatus = 'interviewing';
 
-export default class App extends React.Component {
+export default class Profile extends React.Component {
   constructor(props) {
     super(props);
     setTimeout(() => {
       window.location.reload(true)
     }, 5 * 60 * 1000);
+
+    this.state = {
+      status: STATE,
+    };
+    this.socket = socketio();
+    this.socket.on('connect', () => console.log('connected'));
+    this.socket.on('status', (data) => this.setState({ status: data }));
   }
 
   render() {
     let alert = null;
-    switch (STATE) {
+    switch (this.state.status) {
       case 'around':
         alert = <div className="alert alert-success" role="alert"><b>Gogo is around!</b> Feel free to tap his back or give a hug or whatever!</div>;
         break;
