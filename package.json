@@ -1,7 +1,7 @@
 {
-  "name": "wassap",
+  "name": "bujang",
   "version": "1.0.0",
-  "description": "Wassap bro?!",
+  "description": "Bujang bro?!",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hallucinogen/wassap.git"
+    "url": "git+https://github.com/hallucinogen/bujang.git"
   },
   "author": "Listiarso Wastuargo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hallucinogen/wassap/issues"
+    "url": "https://github.com/hallucinogen/bujang/issues"
   },
-  "homepage": "https://github.com/hallucinogen/wassap#readme",
+  "homepage": "https://github.com/hallucinogen/bujang#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
