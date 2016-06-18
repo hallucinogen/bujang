@@ -259,23 +259,13 @@
 	          null,
 	          _react2.default.createElement(
 	            'option',
-	            { value: 'around' },
-	            'Around'
+	            { value: 'on' },
+	            'On'
 	          ),
 	          _react2.default.createElement(
 	            'option',
-	            { value: 'busy' },
-	            'Busy'
-	          ),
-	          _react2.default.createElement(
-	            'option',
-	            { value: 'vacation' },
-	            'Vacation'
-	          ),
-	          _react2.default.createElement(
-	            'option',
-	            { value: 'out' },
-	            'Out'
+	            { value: 'off' },
+	            'Off'
 	          )
 	        )
 	      );
@@ -19908,8 +19898,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang%2Fclient!./Admin.scss", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang%2Fclient!./Admin.scss");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang-auto%2Fwww%2Fclient!./Admin.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang-auto%2Fwww%2Fclient!./Admin.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -21504,8 +21494,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang%2Fclient!./Profile.scss", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang%2Fclient!./Profile.scss");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang-auto%2Fwww%2Fclient!./Profile.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?modules&localIdentName=[local]__[hash:base64:5]!./../../../node_modules/sass-loader/index.js?includePaths[]=%2FUsers%2Flistiarso%2Fsrc%2Fbujang-auto%2Fwww%2Fclient!./Profile.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
