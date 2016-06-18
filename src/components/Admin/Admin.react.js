@@ -7,10 +7,8 @@ export default class Admin extends React.Component {
     return (
       <div className={styles.wrap} onChange={this._onStatusChange}>
         <select>
-          <option value='around'>Around</option>
-          <option value='busy'>Busy</option>
-          <option value='vacation'>Vacation</option>
-          <option value='out'>Out</option>
+          <option value='on'>On</option>
+          <option value='off'>Off</option>
         </select>
       </div>
     );
